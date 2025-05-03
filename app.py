@@ -52,7 +52,7 @@ Important Notes:
 Please provide me an output response with these 4 headings: Detailed Analysis, Finding Report, Recommendation and Next Steps, Treatment Suggestions.
 """
 
-model = genai.GenerativeModel(model_name="gemini-pro-vision",
+model = genai.GenerativeModel(model_name="gemini-1.5-pro",
                               generation_config=generation_config,
                               safety_settings=safety_settings)
 
